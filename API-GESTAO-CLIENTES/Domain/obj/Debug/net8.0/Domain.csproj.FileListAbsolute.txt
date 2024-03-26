@@ -1,0 +1,15 @@
+E:\PROJETOS\API-GESTAO-CLIENTES\API-GESTAO-CLIENTES\Domain\bin\Debug\net8.0\Domain.deps.json
+E:\PROJETOS\API-GESTAO-CLIENTES\API-GESTAO-CLIENTES\Domain\bin\Debug\net8.0\Domain.dll
+E:\PROJETOS\API-GESTAO-CLIENTES\API-GESTAO-CLIENTES\Domain\bin\Debug\net8.0\Domain.pdb
+E:\PROJETOS\API-GESTAO-CLIENTES\API-GESTAO-CLIENTES\Domain\bin\Debug\net8.0\Entities.dll
+E:\PROJETOS\API-GESTAO-CLIENTES\API-GESTAO-CLIENTES\Domain\bin\Debug\net8.0\Entities.pdb
+E:\PROJETOS\API-GESTAO-CLIENTES\API-GESTAO-CLIENTES\Domain\obj\Debug\net8.0\Domain.csproj.AssemblyReference.cache
+E:\PROJETOS\API-GESTAO-CLIENTES\API-GESTAO-CLIENTES\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\PROJETOS\API-GESTAO-CLIENTES\API-GESTAO-CLIENTES\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+E:\PROJETOS\API-GESTAO-CLIENTES\API-GESTAO-CLIENTES\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+E:\PROJETOS\API-GESTAO-CLIENTES\API-GESTAO-CLIENTES\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+E:\PROJETOS\API-GESTAO-CLIENTES\API-GESTAO-CLIENTES\Domain\obj\Debug\net8.0\Domain.csproj.CopyComplete
+E:\PROJETOS\API-GESTAO-CLIENTES\API-GESTAO-CLIENTES\Domain\obj\Debug\net8.0\Domain.dll
+E:\PROJETOS\API-GESTAO-CLIENTES\API-GESTAO-CLIENTES\Domain\obj\Debug\net8.0\refint\Domain.dll
+E:\PROJETOS\API-GESTAO-CLIENTES\API-GESTAO-CLIENTES\Domain\obj\Debug\net8.0\Domain.pdb
+E:\PROJETOS\API-GESTAO-CLIENTES\API-GESTAO-CLIENTES\Domain\obj\Debug\net8.0\ref\Domain.dll

@@ -1,0 +1,14 @@
+E:\PROJETOS\API-GESTAO-CLIENTES\API-GESTAO-CLIENTES\Entities\bin\Debug\net8.0\Entities.deps.json
+E:\PROJETOS\API-GESTAO-CLIENTES\API-GESTAO-CLIENTES\Entities\bin\Debug\net8.0\Entities.runtimeconfig.json
+E:\PROJETOS\API-GESTAO-CLIENTES\API-GESTAO-CLIENTES\Entities\bin\Debug\net8.0\Entities.dll
+E:\PROJETOS\API-GESTAO-CLIENTES\API-GESTAO-CLIENTES\Entities\bin\Debug\net8.0\Entities.pdb
+E:\PROJETOS\API-GESTAO-CLIENTES\API-GESTAO-CLIENTES\Entities\obj\Debug\net8.0\Entities.csproj.AssemblyReference.cache
+E:\PROJETOS\API-GESTAO-CLIENTES\API-GESTAO-CLIENTES\Entities\obj\Debug\net8.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+E:\PROJETOS\API-GESTAO-CLIENTES\API-GESTAO-CLIENTES\Entities\obj\Debug\net8.0\Entities.AssemblyInfoInputs.cache
+E:\PROJETOS\API-GESTAO-CLIENTES\API-GESTAO-CLIENTES\Entities\obj\Debug\net8.0\Entities.AssemblyInfo.cs
+E:\PROJETOS\API-GESTAO-CLIENTES\API-GESTAO-CLIENTES\Entities\obj\Debug\net8.0\Entities.csproj.CoreCompileInputs.cache
+E:\PROJETOS\API-GESTAO-CLIENTES\API-GESTAO-CLIENTES\Entities\obj\Debug\net8.0\Entities.dll
+E:\PROJETOS\API-GESTAO-CLIENTES\API-GESTAO-CLIENTES\Entities\obj\Debug\net8.0\refint\Entities.dll
+E:\PROJETOS\API-GESTAO-CLIENTES\API-GESTAO-CLIENTES\Entities\obj\Debug\net8.0\Entities.pdb
+E:\PROJETOS\API-GESTAO-CLIENTES\API-GESTAO-CLIENTES\Entities\obj\Debug\net8.0\Entities.genruntimeconfig.cache
+E:\PROJETOS\API-GESTAO-CLIENTES\API-GESTAO-CLIENTES\Entities\obj\Debug\net8.0\ref\Entities.dll

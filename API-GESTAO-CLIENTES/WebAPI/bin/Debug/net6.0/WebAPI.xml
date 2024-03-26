@@ -1,0 +1,187 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebAPI</name>
+    </assembly>
+    <members>
+        <member name="M:WebAPI.Controllers.CategoriaProdutoController.Add(WebAPI.DTOs.CategoriaProdutoDTO)">
+            <summary>
+            Cadastrar uma categoria de produto
+            </summary>
+            <remarks>
+            {"id":"int","descricao":"string","UserId":"string"}
+            </remarks>
+            <param name="categoriaProd">Dados da Categoria</param>
+            <returns>Objeto recém-criado</returns>
+            <response code="201">Categoria criada com sucesso</response>
+            <response code="400">Retorna erros de validação</response>
+            <response code="500">Retorna caso erros ocorram</response>
+        </member>
+        <member name="M:WebAPI.Controllers.CategoriaProdutoController.ListAll">
+            <summary>
+            Obter todas as categorias de produto
+            </summary>
+            <returns>Lista de categorias</returns>
+            <response code="200">Sucesso</response>
+            <response code="404">Não encontrado</response>
+            /// <response code="400">Retorna caso erros ocorram</response>
+        </member>
+        <member name="M:WebAPI.Controllers.CategoriaProdutoController.GetById(System.Int32)">
+            <summary>
+            Obter uma categoria por Id
+            </summary>
+            <param name="id">Identificador da categoria</param>
+            <returns>Dados da categoria</returns>
+            <response code="200">Sucesso</response>
+            <response code="404">Não encontrado</response>
+            <response code="400">Retorna caso erros ocorram</response>
+        </member>
+        <member name="M:WebAPI.Controllers.CategoriaProdutoController.GetAllPagination(System.Int32,System.Int32)">
+            <summary>
+            Obter todas as categorias de produto com paginação indicando a pagina e quantidade a ser exibida
+            </summary>
+            <param name="page">Número da pagina</param>
+            <param name="pageSize">Tamanho / Quantidade registro por pagina</param>
+            <returns>Lista de categorias com paginação</returns>
+            <response code="200">Sucesso</response>
+            <response code="404">Não encontrado</response>
+        </member>
+        <member name="M:WebAPI.Controllers.CategoriaProdutoController.Update(System.Int32,WebAPI.DTOs.CategoriaProdutoDTO)">
+            <summary>
+            Atualizar uma categoria
+            </summary>
+            <remarks>
+            {"id":"int","descricao":"string","UserId":"string"}
+            </remarks>
+            <param name="id">Identificador da Categoria</param>
+            <param name="categoriaProd">Dados da Categoria</param>
+            <returns>Nada.</returns>
+            <response code="400">Retorna erros de validação</response>
+            <response code="404">Categoria não encontrada</response>
+            <response code="200">Categoria alterada com sucesso</response>
+            <response code="500">Retorna caso erros ocorram</response>
+        </member>
+        <member name="M:WebAPI.Controllers.CategoriaProdutoController.Delete(WebAPI.DTOs.CategoriaProdutoDTO)">
+            <summary>
+            Excluir uma categoria
+            </summary>
+            <remarks>
+            {"id":"int","descricao":"string","UserId":"string"}
+            </remarks>
+            <param name="categoriaProd">Dados da Categoria</param>
+            <returns>Nada.</returns>
+            <response code="404">Categoria não encontrada</response>
+            <response code="204">Categoria excluida com sucesso</response>
+        </member>
+        <member name="M:WebAPI.Controllers.CategoriaProdutoController.Delete(System.Int32)">
+            <summary>
+            Excluir uma categoria por Id
+            </summary>
+            <param name="id">Identificador da Categoria</param>
+            <returns>Nada</returns>
+            <response code="404">Categoria não encontrada</response>
+            <response code="204">Categoria excluida com sucesso</response>
+        </member>
+        <member name="M:WebAPI.Controllers.ProdutoController.Add(WebAPI.DTOs.ProdutoDTO)">
+            <summary>
+            Cadastrar um produto
+            </summary>
+            <remarks>
+            {"id":"int", "codigoEan":"string", "descricao":"string", "valor":"decimal", "categoriaProdutoId":"int", "UserId":"string"}
+            </remarks>
+            <param name="produto">Dados do Produto</param>
+            <returns>Objeto recém-criado</returns>
+            <response code="201">Prodto criado com sucesso</response>
+            <response code="400">Retorna erros de validação</response>
+            <response code="500">Retorna caso erros ocorram</response>
+        </member>
+        <member name="M:WebAPI.Controllers.ProdutoController.ListAll">
+            <summary>
+            Obter todos os produto
+            </summary>
+            <returns>Lista de produtos</returns>
+            <response code="200">Sucesso</response>
+            <response code="404">Produto não encontrado</response>
+            <response code="400">Retorna caso erros ocorram</response>
+        </member>
+        <member name="M:WebAPI.Controllers.ProdutoController.GetAllPagination(System.Int32,System.Int32)">
+            <summary>
+            Obter todas os produtos com paginação indicando a pagina e quantidade a ser exibida
+            </summary>
+            <param name="page">Número da pagina</param>
+            <param name="pageSize">Tamanho / Quantidade registro por pagina</param>
+            <returns>Lista de produtos com paginação</returns>
+            <response code="200">Sucesso</response>
+            <response code="404">Não encontrado</response>
+        </member>
+        <member name="M:WebAPI.Controllers.ProdutoController.GetById(System.Int32)">
+            <summary>
+            Obter um produto por Id
+            </summary>
+            <param name="id">Identificador do produto</param>
+            <returns>Dados do produto</returns>
+            <response code="200">Produto consutado com sucesso</response>
+            <response code="404">Produto não encontrado</response>
+        </member>
+        <member name="M:WebAPI.Controllers.ProdutoController.Update(System.Int32,WebAPI.DTOs.ProdutoDTO)">
+            <summary>
+            Atualizar um produto
+            </summary>
+            <remarks>
+            {"id":"int", "codigoEan":"string", "descricao":"string", "valor":"decimal", "categoriaProdutoId":"int", "UserId":"string"}
+            </remarks>
+            <param name="id">Identificador do produto</param>
+            <param name="produto">Dados do produto</param>
+            <returns>Nada.</returns>
+            <response code="400">Retorna erros de validação</response>
+            <response code="404">Produto não encontrado</response>
+            <response code="200">Produto alterado com sucesso</response>
+            <response code="500">Retorna caso erros ocorram</response>
+        </member>
+        <member name="M:WebAPI.Controllers.ProdutoController.Delete(WebAPI.DTOs.ProdutoDTO)">
+            <summary>
+            Excluir um produto
+            </summary>
+            <remarks>
+            {"id":"int", "codigoEan":"string", "descricao":"string", "valor":"decimal", "categoriaProdutoId":"int", "UserId":"string"}
+            </remarks>
+            <param name="produto">Dados do produto</param>
+            <returns>Nada.</returns>
+            <response code="404">Produto não encontrado</response>
+            <response code="204">Produto excluido com sucesso</response>
+        </member>
+        <member name="M:WebAPI.Controllers.ProdutoController.Delete(System.Int32)">
+            <summary>
+            Excluir um produto por Id
+            </summary>
+            <param name="id">Identificador do produto</param>
+            <returns>Nada</returns>
+            <response code="404">Produto não encontrada</response>
+            <response code="204">Produto excluido com sucesso</response>
+        </member>
+        <member name="M:WebAPI.Controllers.UsersController.AdicionarUsuarioIdentity(WebAPI.Models.Login)">
+            <summary>
+            Cadastrar um novo usuário no Identity
+            </summary>
+            <remarks>
+            {"email":"int","senha":"string","cpf":"string"}
+            </remarks>
+            <param name="login">Dados do usuário</param>
+            <returns>Objeto recém-criado</returns>
+            <response code="201">Usuário criado com sucesso</response>
+            <response code="400">Retorna erros de validação</response>
+        </member>
+        <member name="M:WebAPI.Controllers.UsersController.CriarTokenIdentity(WebAPI.Models.Login)">
+            <summary>
+            Gerar token de usuário no Identity
+            </summary>
+            <remarks>
+            {"email":"int","senha":"string","cpf":"string"}
+            </remarks>
+            <param name="login">Dados do login</param>
+            <returns>Objeto recém-criado</returns>
+            <response code="200">Tokn gerado com sucesso</response>
+            <response code="400">Retorna erros de validação</response>
+        </member>
+    </members>
+</doc>

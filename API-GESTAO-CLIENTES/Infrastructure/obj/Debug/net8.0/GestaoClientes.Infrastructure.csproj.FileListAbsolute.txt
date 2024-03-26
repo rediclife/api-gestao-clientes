@@ -1,0 +1,17 @@
+E:\PROJETOS\API-GESTAO-CLIENTES\API-GESTAO-CLIENTES\Infrastructure\bin\Debug\net8.0\GestaoClientes.Infrastructure.deps.json
+E:\PROJETOS\API-GESTAO-CLIENTES\API-GESTAO-CLIENTES\Infrastructure\bin\Debug\net8.0\GestaoClientes.Infrastructure.dll
+E:\PROJETOS\API-GESTAO-CLIENTES\API-GESTAO-CLIENTES\Infrastructure\bin\Debug\net8.0\GestaoClientes.Infrastructure.pdb
+E:\PROJETOS\API-GESTAO-CLIENTES\API-GESTAO-CLIENTES\Infrastructure\bin\Debug\net8.0\GestaoClientes.Domain.dll
+E:\PROJETOS\API-GESTAO-CLIENTES\API-GESTAO-CLIENTES\Infrastructure\bin\Debug\net8.0\GestaoClientes.Entities.dll
+E:\PROJETOS\API-GESTAO-CLIENTES\API-GESTAO-CLIENTES\Infrastructure\bin\Debug\net8.0\GestaoClientes.Domain.pdb
+E:\PROJETOS\API-GESTAO-CLIENTES\API-GESTAO-CLIENTES\Infrastructure\bin\Debug\net8.0\GestaoClientes.Entities.pdb
+E:\PROJETOS\API-GESTAO-CLIENTES\API-GESTAO-CLIENTES\Infrastructure\obj\Debug\net8.0\GestaoClientes.Infrastructure.csproj.AssemblyReference.cache
+E:\PROJETOS\API-GESTAO-CLIENTES\API-GESTAO-CLIENTES\Infrastructure\obj\Debug\net8.0\GestaoClientes.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\PROJETOS\API-GESTAO-CLIENTES\API-GESTAO-CLIENTES\Infrastructure\obj\Debug\net8.0\GestaoClientes.Infrastructure.AssemblyInfoInputs.cache
+E:\PROJETOS\API-GESTAO-CLIENTES\API-GESTAO-CLIENTES\Infrastructure\obj\Debug\net8.0\GestaoClientes.Infrastructure.AssemblyInfo.cs
+E:\PROJETOS\API-GESTAO-CLIENTES\API-GESTAO-CLIENTES\Infrastructure\obj\Debug\net8.0\GestaoClientes.Infrastructure.csproj.CoreCompileInputs.cache
+E:\PROJETOS\API-GESTAO-CLIENTES\API-GESTAO-CLIENTES\Infrastructure\obj\Debug\net8.0\GestaoClientes.Infrastructure.csproj.CopyComplete
+E:\PROJETOS\API-GESTAO-CLIENTES\API-GESTAO-CLIENTES\Infrastructure\obj\Debug\net8.0\GestaoClientes.Infrastructure.dll
+E:\PROJETOS\API-GESTAO-CLIENTES\API-GESTAO-CLIENTES\Infrastructure\obj\Debug\net8.0\refint\GestaoClientes.Infrastructure.dll
+E:\PROJETOS\API-GESTAO-CLIENTES\API-GESTAO-CLIENTES\Infrastructure\obj\Debug\net8.0\GestaoClientes.Infrastructure.pdb
+E:\PROJETOS\API-GESTAO-CLIENTES\API-GESTAO-CLIENTES\Infrastructure\obj\Debug\net8.0\ref\GestaoClientes.Infrastructure.dll

@@ -1,0 +1,15 @@
+E:\PROJETOS\API-GESTAO-CLIENTES\API-GESTAO-CLIENTES\Domain\bin\Debug\net8.0\GestaoClientes.Domain.deps.json
+E:\PROJETOS\API-GESTAO-CLIENTES\API-GESTAO-CLIENTES\Domain\bin\Debug\net8.0\GestaoClientes.Domain.dll
+E:\PROJETOS\API-GESTAO-CLIENTES\API-GESTAO-CLIENTES\Domain\bin\Debug\net8.0\GestaoClientes.Domain.pdb
+E:\PROJETOS\API-GESTAO-CLIENTES\API-GESTAO-CLIENTES\Domain\bin\Debug\net8.0\GestaoClientes.Entities.dll
+E:\PROJETOS\API-GESTAO-CLIENTES\API-GESTAO-CLIENTES\Domain\bin\Debug\net8.0\GestaoClientes.Entities.pdb
+E:\PROJETOS\API-GESTAO-CLIENTES\API-GESTAO-CLIENTES\Domain\obj\Debug\net8.0\GestaoClientes.Domain.csproj.AssemblyReference.cache
+E:\PROJETOS\API-GESTAO-CLIENTES\API-GESTAO-CLIENTES\Domain\obj\Debug\net8.0\GestaoClientes.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\PROJETOS\API-GESTAO-CLIENTES\API-GESTAO-CLIENTES\Domain\obj\Debug\net8.0\GestaoClientes.Domain.AssemblyInfoInputs.cache
+E:\PROJETOS\API-GESTAO-CLIENTES\API-GESTAO-CLIENTES\Domain\obj\Debug\net8.0\GestaoClientes.Domain.AssemblyInfo.cs
+E:\PROJETOS\API-GESTAO-CLIENTES\API-GESTAO-CLIENTES\Domain\obj\Debug\net8.0\GestaoClientes.Domain.csproj.CoreCompileInputs.cache
+E:\PROJETOS\API-GESTAO-CLIENTES\API-GESTAO-CLIENTES\Domain\obj\Debug\net8.0\GestaoClientes.Domain.csproj.CopyComplete
+E:\PROJETOS\API-GESTAO-CLIENTES\API-GESTAO-CLIENTES\Domain\obj\Debug\net8.0\GestaoClientes.Domain.dll
+E:\PROJETOS\API-GESTAO-CLIENTES\API-GESTAO-CLIENTES\Domain\obj\Debug\net8.0\refint\GestaoClientes.Domain.dll
+E:\PROJETOS\API-GESTAO-CLIENTES\API-GESTAO-CLIENTES\Domain\obj\Debug\net8.0\GestaoClientes.Domain.pdb
+E:\PROJETOS\API-GESTAO-CLIENTES\API-GESTAO-CLIENTES\Domain\obj\Debug\net8.0\ref\GestaoClientes.Domain.dll

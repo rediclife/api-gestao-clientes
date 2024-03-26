@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebAPI</name>
+    </assembly>
+    <members>
+        <member name="M:WebAPI.Controllers.ClienteController.Add(WebAPI.DTOs.ClienteDTO)">
+            <summary>
+            Cadastrar um cliente
+            </summary>
+            <remarks>
+            {"id":"int", "nome":"string", "dataCadastro":"DateTime", {"cep":"string", "logradouro":"string", "cidade":"string", "numero":"int", "complemento":"string", "clienteId":"int"}, {["id":"int", "tipo":"string", "texto":"string"]}}
+            </remarks>
+            <param name="cliente">Dados do Cliente</param>
+            <returns>Objeto recém-criado</returns>
+            <response code="201">Cliente criado com sucesso</response>
+            <response code="400">Retorna erros de validação</response>
+            <response code="500">Retorna caso erros ocorram</response>
+        </member>
+        <member name="M:WebAPI.Controllers.ClienteController.ListAll">
+            <summary>
+            Obter todos os clientes
+            </summary>
+            <returns>Lista de clientes</returns>
+            <response code="200">Sucesso</response>
+            <response code="404">Cliente não encontrado</response>
+            <response code="400">Retorna caso erros ocorram</response>
+        </member>
+        <member name="M:WebAPI.Controllers.ClienteController.ListAllInclude">
+            <summary>
+            Obter todos os clientes com Include
+            </summary>
+            <returns>Lista de clientes com include</returns>
+            <response code="200">Sucesso</response>
+            <response code="404">Cliente não encontrado</response>
+            <response code="400">Retorna caso erros ocorram</response>
+        </member>
+        <member name="M:WebAPI.Controllers.ClienteController.GetById(System.Int32)">
+            <summary>
+            Obter um cliente por Id
+            </summary>
+            <param name="id">Identificador do cliente</param>
+            <returns>Dados do cliente</returns>
+            <response code="200">Cliente consutado com sucesso</response>
+            <response code="404">Cliente não encontrado</response>
+        </member>
+        <member name="M:WebAPI.Controllers.ClienteController.Update(System.Int32,WebAPI.DTOs.ClienteDTO)">
+            <summary>
+            Atualizar um cliente
+            </summary>
+            <remarks>
+            {"id":"int", "nome":"string", "dataCadastro":"DateTime", {"cep":"string", "logradouro":"string", "cidade":"string", "numero":"int", "complemento":"string", "clienteId":"int"}, {["id":"int", "tipo":"string", "texto":"string"]}}
+            </remarks>
+            <param name="id">Identificador do cliente</param>
+            <param name="cliente">Dados do cliente</param>
+            <returns>Nada.</returns>
+            <response code="400">Retorna erros de validação</response>
+            <response code="404">Cliente não encontrado</response>
+            <response code="200">Cliente alterado com sucesso</response>
+            <response code="500">Retorna caso erros ocorram</response>
+        </member>
+        <member name="M:WebAPI.Controllers.ClienteController.Patch(System.Int32,WebAPI.DTOs.ClienteDTO)">
+            <summary>
+            Atualizar um cliente
+            </summary>
+            <remarks>
+            {"id":"int", "nome":"string", "dataCadastro":"DateTime", {"cep":"string", "logradouro":"string", "cidade":"string", "numero":"int", "complemento":"string", "clienteId":"int"}, {["id":"int", "tipo":"string", "texto":"string"]}}
+            </remarks>
+            <param name="id">Identificador do cliente</param>
+            <param name="cliente">Dados do cliente</param>
+            <returns>Nada.</returns>
+            <response code="400">Retorna erros de validação</response>
+            <response code="404">Cliente não encontrado</response>
+            <response code="200">Cliente alterado com sucesso</response>
+            <response code="500">Retorna caso erros ocorram</response>
+        </member>
+        <member name="M:WebAPI.Controllers.ClienteController.Delete(System.Int32)">
+            <summary>
+            Excluir um cliente por Id
+            </summary>
+            <param name="id">Identificador do cliente</param>
+            <returns>Nada</returns>
+            <response code="404">Cliente não encontrada</response>
+            <response code="204">Cliente excluido com sucesso</response>
+        </member>
+        <member name="M:WebAPI.Controllers.ClienteController.ListAllEnderecos">
+            <summary>
+            Obter todos os endereços
+            </summary>
+            <returns>Lista de clientes</returns>
+            <response code="200">Sucesso</response>
+            <response code="404">Cliente não encontrado</response>
+            <response code="400">Retorna caso erros ocorram</response>
+        </member>
+        <member name="M:WebAPI.Controllers.ClienteController.UpdateEndereco(System.Int32,WebAPI.DTOs.EnderecoDTO)">
+            <summary>
+            Atualizar um endereço
+            </summary>
+            <remarks>
+            {"cep":"string", "logradouro":"string", "cidade":"string", "numero":"int", "complemento":"string", "clienteId":"int"}
+            </remarks>
+            <param name="id">Identificador do Endereco</param>
+            <param name="endereco">Dados do Endereco</param>
+            <returns>Nada.</returns>
+            <response code="400">Retorna erros de validação</response>
+            <response code="404">Endereco não encontrado</response>
+            <response code="200">Endereco alterado com sucesso</response>
+            <response code="500">Retorna caso erros ocorram</response>
+        </member>
+        <member name="M:WebAPI.Controllers.ContatoController.GetById(System.Int32)">
+            <summary>
+            Obter um contato por Id
+            </summary>
+            <param name="id">Identificador do contato</param>
+            <returns>Dados do contato</returns>
+            <response code="200">Contato consutado com sucesso</response>
+            <response code="404">Contato não encontrado</response>
+        </member>
+        <member name="M:WebAPI.Controllers.ContatoController.Add(WebAPI.DTOs.ContatoDTO)">
+            <summary>
+            Cadastrar um contato
+            </summary>
+            <remarks>
+            {"id":"int", "tipo":"string", "texto":"string", "usuarioId":"int"}
+            </remarks>
+            <param name="contato">Dados do Contato</param>
+            <returns>Objeto recém-criado</returns>
+            <response code="201">Contato criado com sucesso</response>
+            <response code="400">Retorna erros de validação</response>
+            <response code="500">Retorna caso erros ocorram</response>
+        </member>
+        <member name="M:WebAPI.Controllers.ContatoController.Update(System.Int32,WebAPI.DTOs.ContatoDTO)">
+            <summary>
+            Atualizar um contato
+            </summary>
+            <remarks>
+            {"id":"int", "tipo":"string", "texto":"string", "usuarioId":"int"}
+            </remarks>
+            <param name="id">Identificador do contato</param>
+            <param name="contato">Dados do contato</param>
+            <returns>Nada.</returns>
+            <response code="400">Retorna erros de validação</response>
+            <response code="404">Contato não encontrado</response>
+            <response code="200">Contato alterado com sucesso</response>
+            <response code="500">Retorna caso erros ocorram</response>
+        </member>
+        <member name="M:WebAPI.Controllers.ContatoController.Delete(System.Int32)">
+            <summary>
+            Excluir um contato por Id
+            </summary>
+            <param name="id">Identificador do contato</param>
+            <returns>Nada</returns>
+            <response code="404">Contato não encontrada</response>
+            <response code="204">Contato excluido com sucesso</response>
+        </member>
+        <member name="M:WebAPI.Controllers.UsersController.AdicionarUsuarioIdentity(WebAPI.Models.Login)">
+            <summary>
+            Cadastrar um novo usuário no Identity
+            </summary>
+            <remarks>
+            {"email":"int","senha":"string","cpf":"string"}
+            </remarks>
+            <param name="login">Dados do usuário</param>
+            <returns>Objeto recém-criado</returns>
+            <response code="201">Usuário criado com sucesso</response>
+            <response code="400">Retorna erros de validação</response>
+        </member>
+        <member name="M:WebAPI.Controllers.UsersController.CriarTokenIdentity(WebAPI.Models.Login)">
+            <summary>
+            Gerar token de usuário no Identity
+            </summary>
+            <remarks>
+            {"email":"int","senha":"string","cpf":"string"}
+            </remarks>
+            <param name="login">Dados do login</param>
+            <returns>Objeto recém-criado</returns>
+            <response code="200">Tokn gerado com sucesso</response>
+            <response code="400">Retorna erros de validação</response>
+        </member>
+    </members>
+</doc>
